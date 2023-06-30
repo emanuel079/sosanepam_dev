@@ -10,3 +10,4 @@ def index():
 @app.route('/provincia')
 def provincia():
     return
+
