@@ -1,60 +1,225 @@
 <!doctype html>
 <html lang="en">
-
-<head>
-  <title>Title</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS v5.2.1 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-
-</head>
-
-<body>
-  <header>
-    <!-- place navbar here -->
-  </header>
-  <div class="form-login">
-    <div class="container">
-      <h2 class="text-orange-500">Inicio de sesión</h2>
-      <form>
-        <div class="text-orange-500" class="form-group">
-          <label for="email">Correo electrónico:</label>
-          <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trivago</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+  
+  </head>
+  
+  <body class="bg-black">
+    <header class="navbar navbar-expand-lg bg-black">
+      <div class="container-fluid">
+        <img class="navbar-brand pt-2 pl" src="img/navbar.png">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active text-orange-500 pe-4 ps-3" href="homeBoostrap.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-orange-500 pe-4 ps-3" href="loginBoostrap.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-orange-500 pe-4 ps-3" href="postearBoostrap.html">Postear</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-orange-500 pe-4 ps-3" href="viajesBoostrap.html">Viajes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-orange-500 pe-4 ps-3" href="recomendacionesBoostrap.html">Recomendaciones</a>
+            </li>
+          </ul>
         </div>
-        <div class="text-orange-500" class="form-group">
-        <div class="form-group">
-          <label for="password">Contraseña:</label>
-          <input type="password" class="form-control" id="password" placeholder="Ingresa tu contraseña">
+        <div>
+          <a class="nav-link text-orange-500 pe-4 ps-3" href="loginBoostrap.html"><img src="img/usuario.png" alt="">  Usuario</a></div>
+      </div>
+    </header>
+    <hr class="bg-white  border-4">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide mx-auto text-center" style="max-width:2000px; max-height: 900px;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <button type="submit" class="btn btn-primary" >Iniciar sesión</button>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/paris.jpg" class="d-block w-100 h-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Visita Paris</h2>
+              <p>El nuevo destino de tus sueños</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/Canada.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 style="color: antiquewhite;">Visita Canada</h2>
+              <p style="color: antiquewhite;">El nuevo destino de tus sueños</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/mexico.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="tex-black">Visita México</h2>
+              <p class="text-black">El nuevo destino de tus sueños</p>
+            </div>
+          </div>
         </div>
-        <div class="google-button">
-          <img src="img/googlefoto.png" alt="Google Icon">
-          <span>Iniciar sesión
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      
+      <br><br>
+      
+
+      <!-- <div class="tittle">
+        <h1 class="text-orange-500 display-6">Publicaciones más visitadas..</h1>
+      </div>
+      <hr class="bg-white  border-5">
+      
+      <br>
+
+      <main>
+        <div class="album py-6 bg-black">
+          <div class="container">
+            <div class="row row-cols-xl-4">
+              <div class="col">
+                <div class="card card-equal-height">
+                  <img src="img/tailandia.jpg" class="card-img-top" alt="...">
+                  <div class="bg-black">
+                    <h5 class="text-white" style="font-size: 35px">Tailandia</h5>
+                    <p class="text-orange-500">¡Conoce la belleza de Tailandia! Sumérgete en sus exóticos paisajes, desde las playas paradisíacas de Phuket hasta los templos sagrados de Bangkok. Disfruta de la deliciosa cocina tailandesa y explora su rica cultura y tradiciones. Tailandia te espera con los brazos abiertos para ofrecerte una experiencia inolvidable llena de aventuras y descubrimientos.</p> <br><br><br><br>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-warning">Mostrar</a>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-equal-height">
+                  <img src="img/grecia.png" class="card-img-top" alt="...">
+                  <div class="bg-black">
+                    <h5 class="text-white" style="font-size: 35px">Grecia</h5>
+                    <p class="text-orange-500">¡Inicia tu viaje en  la fascinante historia y la belleza de Grecia! Sumérgete en la grandeza de la antigua Atenas, maravíllate con los imponentes templos de la Acrópolis y explora las pintorescas islas griegas con sus casas blancas y playas de aguas cristalinas. Disfruta de la deliciosa gastronomía mediterránea y sumérgete en la cultura rica en mitología y tradiciones. Grecia te espera con su encanto único y paisajes impresionantes.</p><br><br>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-warning">Mostrar</a>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              
+              <div class="col">
+                <div class="card card-equal-height">
+                  <img src="img/rioJaneiro.jpg" class="card-img-top" alt="...">
+                  <div class="bg-black">
+                    <h5 class="text-white" style="font-size: 35px">Tailandia</h5>
+                    <p class="text-orange-500">¡Sumérgete en la vibrante energía de Río de Janeiro! Descubre las famosas playas de Copacabana e Ipanema, donde podrás relajarte y disfrutar del sol. Admira la majestuosidad del Cristo Redentor en la cima del Corcovado y contempla las impresionantes vistas panorámicas de la ciudad. Explora los barrios bohemios de Santa Teresa y Lapa, conocidos por su vida nocturna animada y su música samba. Río de Janeiro te espera con su mezcla única de cultura, naturaleza exuberante y festividad contagiosa.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-warning">Mostrar</a>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <br><br><br>
+      <main>
+        <div class="album py-6 bg-black">
+          <div class="container">
+            <div class="row row-cols-xl-4">
+              <div class="col">
+                <div class="card card-equal-height">
+                  <img src="img/india2.png" class="card-img-top" alt="...">
+                  <div class="bg-black">
+                    <h5 class="text-white" style="font-size: 35px">India</h5>
+                    <p class="text-orange-500">¡Adentrate en la riqueza cultural y espiritual de la India! Explora los majestuosos palacios de Rajasthan, maravíllate con el icónico Taj Mahal en Agra y descubre la espiritualidad en las orillas del sagrado río Ganges en Varanasi. Adéntrate en los sabores exquisitos de la cocina india, con sus especias y aromas únicos. Disfruta de la diversidad de paisajes, desde las montañas del Himalaya hasta las playas de Goa. La India te espera con una experiencia transformadora llena de colores, tradiciones y una hospitalidad cálida y acogedora.</p> <br><br><br>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-warning">Mostrar</a>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-equal-height">
+                  <img src="img/lasVegas.jpg" class="card-img-top" alt="...">
+                  <div class="bg-black">
+                    <h5 class="text-white" style="font-size: 35px">Las Vegas</h5>
+                    <p class="text-orange-500">¡Descubre el brillo y la emoción de Las Vegas! Conocida como la Ciudad del Pecado, Las Vegas es famosa por sus extravagantes casinos, hoteles de lujo y espectáculos de clase mundial. Disfruta de una experiencia de juego única, prueba suerte en los dados, las cartas o las máquinas tragamonedas. Pasea por el icónico Strip, donde encontrarás impresionantes réplicas de lugares emblemáticos como la Torre Eiffel o el Gran Canal de Venecia. Además de su vida nocturna vibrante, Las Vegas también ofrece una amplia gama de restaurantes gourmet, tiendas de moda y opciones de entretenimiento para todos los gustos. ¡Prepárate para una aventura inolvidable en la ciudad que nunca duerme!</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-warning">Mostrar</a>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                </div>
+              </div>
+              
+              <div class="col">
+                <div class="card card-equal-height">
+                  <img src="img/roma.png" class="card-img-top" alt="...">
+                  <div class="bg-black">
+                    <h5 class="text-white" style="font-size: 35px">Roma</h5>
+                    <p class="text-orange-500">¡Viaja en el tiempo y descubre la eterna belleza de Roma! Admira los majestuosos monumentos como el Coliseo, el Foro Romano y el Panteón, que te transportarán a la época del Imperio Romano. Explora las estrechas calles del encantador barrio de Trastevere y prueba la deliciosa cocina italiana en los auténticos restaurantes locales. No te pierdas la visita al Vaticano, donde podrás admirar la grandiosidad de la Basílica de San Pedro y los impresionantes Museos Vaticanos. Con su mezcla de historia, arte, cultura y gastronomía, Roma te cautivará con su encanto atemporal.</p> <br><br>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                            <a href="#" class="btn btn-warning">Mostrar</a>
+                        </div>
+                        <small class="text-muted">9 mins</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+    <footer>
+      <div class=" w-100 d-flex flex-wrap justify-content-between align-items-center py-3 my-4">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary text-orange-500">Todos los derechos son reservados.</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-body-secondary" href="#"><img class="nav-link py-2 px-0 px-lg-2" src="img/twitter.png"></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><img class="nav-link py-2 px-0 px-lg-2" src="img/instagram.png"></a></li>
+          <li class="ms-3"><a class="text-body-secondary" href="#"><img class="nav-link py-2 px-0 px-lg-2" src="img/facebook.png"></a></li>
+        </ul>
+      </div> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+  </body>
+  
   
 
-
-
-
-  </div>
-  <footer>
-    <!-- place footer here -->
-  </footer>
-  <!-- Bootstrap JavaScript Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
-  </script>
-</body>
 
 </html>

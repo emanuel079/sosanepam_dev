@@ -1,0 +1,84 @@
+html,body{
+    background-color: rgb(9, 8, 8);
+}
+
+
+.carousel.carousel-dark {
+    max-width: 1500px;
+    max-height: 900px;
+}
+  
+.carousel-caption {
+  
+    padding: 10px;
+}
+  
+.carousel-caption h2 {
+    color: rgb(30, 29, 29);
+    font-size: 24px;
+}
+
+.carousel-caption p {
+    color: rgb(30, 29, 29);
+    font-size: 16px;
+}
+
+.card-group {
+    width: 1800px;
+    margin: 0 auto;
+  }
+  
+.card {
+    width: 250px;
+    margin: 40px;
+   
+    -webkit-box-shadow: -2px -2px 50px #d4d1e4;
+    -moz-box-shadow: -2px -2px 50px #dfddeb;
+    box-shadow: -2px -2px 50px #4f4e50;
+  }
+  
+.card-img-top {
+    height: 400px;
+    object-fit: cover;
+  }
+  
+.card-body {
+    padding: 10px;
+    background-color: rgb(243, 154, 37);
+    
+  }
+  
+.card-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+.card-text {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+.card-footer {
+    
+    background-color: rgb(243, 154, 37);
+    padding: 5px;
+  }
+
+.text-muted {
+    color: #d4d1e4;
+    
+  }
+
+.tittle {
+
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: medium;
+  background-color: rgb(9, 8, 8)
+  
+    
+    }
+
+.tittle h1{
+  color: rgb(229, 226, 226);
+}
