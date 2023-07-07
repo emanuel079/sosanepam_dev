@@ -1,4 +1,4 @@
-# Sitio Web Trivago
+# Sitio Web Cuatrivago
 
 Este proyecto es una pagina web Trivago creada para recopilar información de diferentes destinos de viajes. Puedes consultar diferentes lugares donde desesas planear o viajar en un futro y asi hacerse tips y consejos a tener en cuenta. Asi, tambien podes registrarte y ser usuario para poder publicar tus propios destinos con tu experiencia propia.
 
@@ -36,7 +36,7 @@ Si el comando anterior no funciona, intenta usar python3 en lugar de python:
 
 1.  Abre el archivo de la pagina pricipal en visual estudio code:
 
-        code index.html
+        cd template/code index.html
 
 2.  Instalar la extencion: Live Server
 
