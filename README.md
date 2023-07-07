@@ -46,6 +46,8 @@ Si el comando anterior no funciona, intenta usar python3 en lugar de python:
 
     para iniciar y navegar en la pagina web.
 
-## Autor ✒️
+## Autores ✒️
 
-- **Franco Emanuel Benitez** - [emanuel079](https://github.com/emanuel079)
+- **Franco Benitez** - [emanuel079](https://github.com/emanuel079)
+- **Lautaro Palacios** - [Lautaro-Palacios](https://github.com/Lautaro-Palacios)
+- **Ezexiel Gaspero** - [EzequielGaspero](https://github.com/EzequielGaspero)
